@@ -5,8 +5,8 @@ An infrared (IR) control project for an LE2113 clock/timer used for lap time det
 The advantage of this code lies in already providing the necessary (pulse trains) commands to start and stop such timer via IR. Furthermore, flags and checks are employed to ensure smoother operation and facilitate the addition of new features.
 
 The following programs are available:
-- [IR ultrassonic sensor](./remote_stopwatch_ultrassonic_sensor)
-
+- [ultrassonic sensor](./remote_stopwatch_ultrassonic_sensor)
+- [break-beam sensor](./remote_stopwatch_ir_sensor)
 
 ## Physical experiment
 
@@ -23,3 +23,7 @@ The physical experiment is presented bellow
         width="500"
     />
 </p>
+
+## Notes
+
+If this project helped you, please consider citing it properly and starring the repository. Improvements and new features may be added in the future.
